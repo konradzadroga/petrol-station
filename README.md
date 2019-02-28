@@ -4,7 +4,7 @@ University project for subject "Basics of simulation". Created in Java with "dis
 
 <b>Screenshots:</b>
 
-![Alt text](/src/main/resources/screenshots/screenone.png?raw=true "Screenshot1")
+![screenone](/src/Resources/screenshots/screenone.png?raw=true "Screenshot1")
 
-![Alt text](/src/main/resources/screenshots/screentwo.png?raw=true "Screenshot2")
+![screentwo](/src/Resources/screenshots/screentwo.png?raw=true "Screenshot2")
 
