@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: linear-gradient(from 10% 10% to 100% 100%, #724aa5, #330047);
+    -fx-font-family: Calibri;
+    -fx-font-weight: Bold;
+    -fx-font-size: 13px;
+}
+
+
+
+.button {
+    -fx-background-color: #2a0530;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 30px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+.button:hover{
+    -fx-background-color: #36083d;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 30px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.text-field {
+    -fx-background-color: #2a0530;
+    -fx-text-fill: white;
+    -fx-background-radius: 30px;
+}

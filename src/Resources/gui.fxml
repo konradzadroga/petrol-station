@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="629.0" prefWidth="846.0" stylesheets="/Resources/cssstyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="prawdopodobienstwoMyjnia" layoutX="43.0" layoutY="239.0" prefHeight="25.0" prefWidth="80.0" text="0.7" />
+      <TextField fx:id="liczbaKasTextField" layoutX="43.0" layoutY="295.0" prefHeight="25.0" prefWidth="80.0" text="2" />
+      <TextField fx:id="ileStanowiskBenzynaTextField" layoutX="43.0" layoutY="349.0" prefHeight="25.0" prefWidth="80.0" text="1" />
+      <TextField fx:id="ileStanowiskONTextField" layoutX="43.0" layoutY="454.0" prefWidth="80.0" text="1" />
+      <TextField fx:id="maxDlugoscKolejkiDoStanowiskaTextField" layoutX="43.0" layoutY="511.0" prefHeight="25.0" prefWidth="80.0" text="2" />
+      <TextField fx:id="ileStanowiskLPGTextField" layoutX="43.0" layoutY="397.0" prefHeight="25.0" prefWidth="80.0" text="1" />
+      <TextField fx:id="rozkladCzasuTankowaniaBenzynyTextField" layoutX="391.0" layoutY="282.0" prefHeight="25.0" prefWidth="40.0" text="1" />
+      <TextField fx:id="ustawGranicaPrawaCTBTextField" layoutX="468.0" layoutY="282.0" prefHeight="25.0" prefWidth="40.0" text="3.0" />
+      <TextField fx:id="rozkladOdstepMiedzyKlientamiTextField" layoutX="391.0" layoutY="202.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+      <Text layoutX="27.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P-stwo korzystania klienta z myjnii:">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+      <Text layoutX="43.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liczba kas:" />
+      <Text layoutX="25.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liczba stanowisk z benzyną:" />
+      <Text layoutX="30.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liczba stanowisk z LPG:" />
+      <Text layoutX="31.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liczba stanowisk z ON:" />
+      <Text layoutX="25.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maksymalna kolejka do stanowiska:" />
+      <Text layoutX="666.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="'0' - Normalny" />
+      <Text layoutX="664.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="'1' - Jednostajny" />
+      <Text layoutX="664.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="'2' - Gamma" />
+      <Text layoutX="666.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="'3' - Beta" />
+      <Text layoutX="296.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład odstępu pomiędzy kolejnymi klientami">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="granicaLewaROPKTextField" layoutX="325.0" layoutY="202.0" prefHeight="25.0" prefWidth="40.0" text="0.0" />
+      <TextField fx:id="granicaPrawaROPKTextField" layoutX="468.0" layoutY="202.0" prefHeight="25.0" prefWidth="40.0" text="1.0" />
+      <Text layoutX="312.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <Text layoutX="330.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład czasu tankowania benzyny:" wrappingWidth="238.6328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="309.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <TextField fx:id="ustawGranicaLewaCTBTextField" layoutX="325.0" layoutY="282.0" prefHeight="25.0" prefWidth="40.0" text="1.5" />
+      <TextField fx:id="rozkladCzasuTankowaniaLPGTextField" layoutX="401.0" layoutY="365.0" prefHeight="25.0" prefWidth="40.0" text="1" />
+      <TextField fx:id="ustawGranicaPrawaCTLTextField" layoutX="476.0" layoutY="365.0" prefHeight="25.0" prefWidth="40.0" text="3.5" />
+      <Text layoutX="349.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład czasu tankowania LPG:" wrappingWidth="238.6328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="322.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <TextField fx:id="ustawGranicaLewaCTLTextField" layoutX="325.0" layoutY="365.0" prefHeight="25.0" prefWidth="40.0" text="2.0" />
+      <TextField fx:id="rozkladCzasuTankowaniaONTextField" layoutX="395.0" layoutY="448.0" prefHeight="25.0" prefWidth="40.0" text="1" />
+      <TextField fx:id="ustawGranicaPrawaCTOTextField" layoutX="470.0" layoutY="448.0" prefHeight="25.0" prefWidth="40.0" text="3.4" />
+      <Text layoutX="343.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład czasu tankowania ON:" wrappingWidth="238.6328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="316.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <TextField fx:id="ustawGranicaLewaCTOTextField" layoutX="319.0" layoutY="448.0" prefHeight="25.0" prefWidth="40.0" text="1.2" />
+      <TextField fx:id="rozkladCzasuPlatnosciTextField" layoutX="395.0" layoutY="525.0" prefHeight="25.0" prefWidth="40.0" text="1" />
+      <TextField fx:id="granicaPrawaPlatnosciTextField" layoutX="470.0" layoutY="525.0" prefHeight="25.0" prefWidth="40.0" text="2.0" />
+      <Text layoutX="357.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład czasu płatności:" wrappingWidth="238.6328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="316.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <TextField fx:id="granicaLewaPlatnosciTextField" layoutX="319.0" layoutY="525.0" prefHeight="25.0" prefWidth="40.0" text="1.0" />
+      <TextField fx:id="rozkladCzasuMyciaTextField" layoutX="395.0" layoutY="598.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+      <TextField fx:id="granicaPrawaMyciaTextField" layoutX="470.0" layoutY="598.0" prefHeight="25.0" prefWidth="40.0" text="2.5" />
+      <Text layoutX="357.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rozkład czasu mycia:" wrappingWidth="238.6328125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="316.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lewa granica:   Rodzaj:       Prawa granica:" />
+      <TextField fx:id="granicaLewaMyciaTextField" layoutX="319.0" layoutY="598.0" prefHeight="25.0" prefWidth="40.0" text="1.0" />
+      <Text layoutX="371.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USTAW">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="351.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PARAMETRY">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="359.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SYMULACJI">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button fx:id="rozpocznijSymulacjePrzycisk" layoutX="642.0" layoutY="86.0" mnemonicParsing="false" onAction="#rozpocznijSymulacje" prefHeight="51.0" prefWidth="169.0" text="Rozpocznij symulację" />
+      <TextField fx:id="simulationTimeTextField" layoutX="642.0" layoutY="50.0" prefHeight="25.0" prefWidth="169.0" text="300" />
+      <Text layoutX="680.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Czas symulacji:" />
+      <Text layoutX="38.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PODSTAWY">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="46.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SYMULACJI">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Symulacja ruchu na ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stacji benzynowej">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="z myjnią">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="622.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Lewa granica&quot; odpowiada minimalnej" />
+      <Text layoutX="615.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="jednostce czasu jaką wylosuje generator." />
+      <Text layoutX="614.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Prawa granica&quot; odpowiada maksymalnej" />
+      <Text layoutX="615.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="jednostce czasu jaką wylosuje generator." />
+      <Text layoutX="614.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Rodzaj&quot; odpowiada rodzajowi rozkładu" />
+      <Text layoutX="635.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prawdopodobieństwa z jakiego " />
+      <Text layoutX="666.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="skorzysta generator:" />
+      <Text layoutX="648.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log z rezultatami symulacji" />
+      <Text layoutX="667.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="zostanie zapisany w" />
+      <Text layoutX="670.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="katalogu projektu." />
+   </children>
+</AnchorPane>
